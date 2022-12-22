@@ -27,13 +27,14 @@ No terminal digite esses comandos:
 ```bash
   npm run dev
 ```
-Saída na pasta `/div/app.js`
+Saída na pasta `/dist/app.js`
 
 ## Configurar base de dados
 
 É utilizado o Postgresql mas caso queira pode ser utilizado com o MySQL.
 
 * Adicionar nome do banco, usuario e a senha.
+
 |`Ln 14`|
 |:-|
 
@@ -58,7 +59,7 @@ Na pasta `banco de dados` tem dois arquivos, um com o diagrama das tabelas e out
 | `req.body.user` | `string` | Recebe o nome do usuário |
 | `req.body.pass` | `string` | Recebe a senha |
 
-* Necessário a senha ter 8 caracteres, número e letra maiúscula.
+* Necessário a senha ter 8 caracteres, e dentre eles número e letra maiúscula.
 * O nome do usuário não pode ter menos que 3 caracteres.
 
 | `Caso tudo ocorra bem retorna status 201` |
