@@ -42,7 +42,7 @@ Na pasta `banco de dados` tem dois arquivos, um com o diagrama das tabelas e out
 
 ### Cadastro
 
-```http
+```
   POST /cadastro
 ```
 
@@ -66,7 +66,7 @@ Na pasta `banco de dados` tem dois arquivos, um com o diagrama das tabelas e out
 
 ### Login
 
-```http
+```
   POST /login
 ```
 
@@ -105,7 +105,7 @@ headers: { "token": "token"}
 
 **Requisições**
 
-```http
+```
   GET /areauser
 ```
 
@@ -115,7 +115,7 @@ headers: { "token": "token"}
 
 **Decidir não fazer a requisição completa dos dados e separar a requisição das transações e tornar um opcional**
 
-```http
+```
   GET /transactions
 ```
 
@@ -125,7 +125,7 @@ headers: { "token": "token"}
 
 ### Nova transação
 
-```http
+```
   POST /newtransctions
 ```
 
